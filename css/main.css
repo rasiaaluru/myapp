@@ -1,0 +1,88 @@
+header{
+    background: #f5511e;
+}
+/* nav styles */
+.navbar-brand{
+    font-size: 30px;
+    
+}
+nav li .under::after{
+        content:" ";
+        background:#f5511e;
+        color:#f5511e;
+        width: 45px;
+        height: 2px;
+        display: block;
+        margin: 0 auto;
+        margin-top:5px;
+}
+nav .under{
+    color:#f5511e;
+}
+/* baner styles */
+#banner img{
+    width:100%;
+    height:500px;
+}
+#banner .psr{
+    top:50%;
+    left:30%;
+    transform: translate(-50% ,-50%);
+}
+/* offer styles */
+ h4::after{
+    content:" ";
+    background: #f5511e;
+    width:70px;
+    height: 2px;
+    display: block;
+    margin: 0 auto;
+    margin-top:8px;
+}
+#offer .fa-car{
+    color: #f5511e;
+    font-size:30px;
+}
+#offer .fa-house{
+    color: #f5511e;
+    font-size:30px;
+}
+#offer .fa-credit-card{
+    color: #f5511e;
+    font-size:30px;
+}
+
+#process .fa-check{
+    color: #f5511e;
+}
+#process img{
+    width:90%;
+    height:300px;
+}
+/* loan-process styles */
+#loan-process img{
+    width: 100%;
+    height:200px;
+}
+#loan-process h5{
+    color: #f5511e;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+}
+footer h5{
+    color:#f5511e
+}
+footer .envolope{
+    background: #f5511e;
+    
+}
+footer input{
+    background: black;
+    border: 2px solid gray;
+
+}
+footer a{
+    color: #f5511e;
+}
